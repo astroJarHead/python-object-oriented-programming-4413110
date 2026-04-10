@@ -2,23 +2,20 @@
 # Using class-level and static methods
 
 
+# TODO: Properties defined at the class level are shared by all instances
 class Book:
-    # TODO: Properties defined at the class level are shared by all instances
-
-    # TODO: double-underscore properties are hidden from other classes
-
-    # TODO: create a class method
-
-    # TODO: create a static method
-
-    # instance methods receive a specific object instance as an argument
-    # and operate on data specific to that object instance
-    def set_title(self, newtitle):
-        self.title = newtitle
-
     def __init__(self, title):
         self.title = title
+ 
+# TODO: create a class method
+book1 = Book("Brave New World")
+book2 = Book("war and Peace")
+    
+$ TODO: print the classs and property
+print(book1)
+print(book.title)
 
+# TODO: create a static method
 
 # TODO: access the class attribute
 
