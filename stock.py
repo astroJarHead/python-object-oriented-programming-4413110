@@ -1,6 +1,7 @@
 # Challenge question #1: create a stock class
 
 class Stock:
+    # create the stock class: recall self references class itself
     def __init__(self, ticker, price, company):
         self.ticker = ticker
         self.price = price
